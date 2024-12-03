@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import { Analytics } from "@vercel/analytics/react";
 
 const App: React.FC = () => {
   return (
@@ -12,6 +13,7 @@ const App: React.FC = () => {
           Yes!
         </p>
       </header>
+      <Analytics />
     </div>
   );
 }
